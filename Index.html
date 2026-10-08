@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<>
+  <head>
+    <title>My Budget Tracker</title>
+    <link rel="preconnect"href="https://fonts.googleapis.com">
+    <link rel="href="https://fonts gstatic.com"crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap"rel="stylesheet">
+    <link rel:"Styles" href:"Styles">
+  </head><
+  ><h1>My budget tracker</h1>
+  <p>Track my budget flow in one place.</p>
+<!--Interactive Collapsible Element-->
+<details>
+  <summary>How to use this tracker</summary>
+  <p>Fill out the expensesform below and click"Add Expense"to track your daily spenfing!</p>
+</details>
+<!--Added class="add-expense-section"for direct child selectors-->
+<section class="add-expense-section">
+  <h2>Add Expense-form"</h2>
+  <label>Expense Name:</label>
+  <input type ="text>"id="expense-name"required>
+    <label>Amount:</label>
+  <input type ="number"id="expense-amount"step="0.01"required>
+  <label>Category.</label>
+  <input type="text"id="epense-category"required>
+  <select id="expense category">
+    <option value="food">food</option>
+    <option value="rent">rent</option>
+    <option value="utilities">utilities</option>
+    <option value="other">other</option>
+  </select>
+  <label>date</label>
+  <input type="date"id="expense-date"required>
+  <button type="submit">Add Expense</button>
+</form>
+</section>
+<section>
+  <!--Added class="expenses-section"for descendant selectors-->
+  <section class="expenses-section"></section>
+  <h2>my Expenses</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Àmount</th>
+      <th>Category</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Groceries</td>
+      <td>$50.00</td>
+      <td>Food</td>
+      <td>2026-10-01</td>
+    </tr>
+    <tr>
+      <td>Appartment Rent</td>
+      <td>$500.00</td>
+      <td>Rent</td>
+      <td>2026-10-03</td>
+    </tr>
+    <tr>
+      <td>Movie Ticket</td>
+      <td>$12.00</td>
+      <td>$Entertainment</td>
+      <td>2026-10-04</td>
+    </tr>
+    <tr>
+      <td>Internet</td>
+      <td>4$40.00</td>
+      <td>Other</td>
+      <td>2026-10-05</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<!--3.Multimedia:Embedded Youtube Video-->
+<section>
+  <h2>Budgetting Tips</h2>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com|embed|dQw4w9WgxcQ"
+    title="Budgetting Tips Video"
+    frame border="0">
+    </iframe>
+</section>
+</tbody>
+</html>
